@@ -8,6 +8,18 @@ I don't use R often. Every time I come back to it every few months for some task
 rows = read.csv("rows.csv")
 ```
 
+### Read from Excel via clipboard
+```r
+# Data is in clipboard
+#
+s <- "175   78
+179   81
+199   91"  # these are not real tabs
+
+data = read.table(text=s, sep="\t") # optional header={TRUE|FALSE}
+```
+
+
 ### Get certain rows only
 
 ```r
