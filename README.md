@@ -66,6 +66,13 @@ install.packages("corrplot")
 [1] 1 2 3 4
 ```
 
+## String
+### Replace
+```r
+> sub(" ", "", "1 716.60")
+[1] "1716.60"
+```
+
 ## Tasks
 
 ### Principal component analysis (PCA)
