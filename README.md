@@ -75,6 +75,10 @@ install.packages("corrplot")
 
 ## Tasks
 
+### Multiple Regression
+
+[Multiple regression](https://www.statmethods.net/stats/regression.html)
+
 ### Principal component analysis (PCA)
 
 [Computing and visualizing PCA in R](https://www.r-bloggers.com/computing-and-visualizing-pca-in-r/) (R Bloggers)
